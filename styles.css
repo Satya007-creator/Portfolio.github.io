@@ -1,3 +1,18 @@
+html, body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  display: none;
+}
+
 :root {
     --bg: #020b12;
     --bg2: #040f1a;
