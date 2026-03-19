@@ -60,7 +60,7 @@ function type() {
 type();
 
 /* ─── GITHUB API ─── */
-const GITHUB_USER = 'Satya007-creator';
+const GITHUB_USER = 'MVS-Satya-Prasad';
 const FEATURED_REPO = 'IDS'; // Featured repo from resume
 
 // Resume project descriptions (fallback enrichment)
@@ -167,19 +167,19 @@ async function fetchGitHubRepos() {
         name: 'IDS', icon: '🛡️', featured: true,
         description: 'Advanced Intrusion Detection System using LSTM networks for detecting anomalies and attacks in network traffic. Achieves high accuracy in detecting both known and zero-day threats.',
         tech: ['LSTM', 'Python', 'TensorFlow'],
-        link: 'https://github.com/Satya007-creator/IDS'
+        link: 'https://github.com/MVS-Satya-Prasad/IDS'
       },
       {
         name: 'Network Monitor', icon: '📡', featured: false,
         description: 'Real-Time Network Monitoring using Snappy compression for efficient data capture. Enables real-time detection of abnormal network behavior with minimal overhead.',
         tech: ['Snappy', 'Python', 'Networking'],
-        link: 'https://github.com/Satya007-creator'
+        link: 'https://github.com/MVS-Satya-Prasad'
       },
       {
         name: 'Vuln Scanner', icon: '🔍', featured: false,
         description: 'Python-based Web Application Vulnerability Scanner for identifying XSS and SQL Injection. Includes automated reporting for analysis and patch management.',
         tech: ['Python', 'MySQL', 'Web Security'],
-        link: 'https://github.com/Satya007-creator'
+        link: 'https://github.com/MVS-Satya-Prasad'
       }
     ];
 
